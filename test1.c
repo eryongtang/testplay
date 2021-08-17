@@ -4,6 +4,7 @@ struct student{
     char name[];
 };
 int main(){
-    printf("hello\n");
+    struct student s={19,"xiaoming"};
+    printf("%d %s\n",s.age,s.name);
     return 0;
 }
